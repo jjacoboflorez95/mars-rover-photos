@@ -1,0 +1,110 @@
+body {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	background-color: rgb(34, 34, 34);
+	background-image: url("images/bg1.jpg");
+	background-size: cover;
+	backdrop-filter: blur(3px);
+	margin: 0 auto;
+	width: 1000px;
+	/*border: 3px solid cornflowerblue;*/
+	padding: 0 2em 1em;
+}
+h1,
+h3 {
+	/*color: cornflowerblue;*/
+	color: whitesmoke;
+	margin-bottom: 40px;
+}
+div {
+	margin-bottom: 1em;
+}
+label {
+	display: inline-block;
+	width: 8em;
+}
+input {
+	margin-right: 0.5em;
+}
+table {
+	margin-bottom: 1em;
+}
+td,
+th {
+	min-width: 7em;
+	text-align: left;
+}
+img {
+	width: 200px;
+	margin-right: 0.5em;
+}
+.error {
+	color: red;
+}
+.hide {
+	display: none;
+}
+
+/**/
+main {
+	background-color: rgba(138, 112, 73, 0.842);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: rgba(124, 99, 61, 0.842);
+	border-radius: 5px;
+	margin-top: 40px;
+	padding: 50px 70px;
+}
+
+h1 {
+	font-size: 190%;
+}
+
+label {
+	font-size: 120%;
+	color: rgb(231, 191, 145);
+}
+
+select {
+	font-size: 105%;
+	width: 20%;
+}
+
+table {
+	font-size: 105%;
+	border-spacing: 5px;
+}
+
+th,
+td {
+	margin-right: 10px;
+}
+
+th {
+	color: whitesmoke;
+}
+
+td {
+	color: rgb(211, 211, 211);
+}
+
+input[type="button"] {
+	color: white;
+	border: 1px solid rgb(105, 105, 105);
+	background-color: rgba(51, 51, 51, 0.774);
+	border-radius: 10px;
+	padding: 3px 40px;
+	letter-spacing: 1px;
+	font-size: 110%;
+	margin-bottom: 50px;
+}
+input[type="button"]:hover {
+	background-color: rgba(78, 78, 78, 0.774);
+	cursor: pointer;
+}
+
+small {
+	font-size: 70%;
+	color: rgb(255, 255, 255);
+	letter-spacing: 1.5px;
+}
